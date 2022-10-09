@@ -1,0 +1,268 @@
+:root{
+  /* CSS HEX */
+  --background: #ebf0e9;
+  --darkBackground: #458728;
+  --headerShadowA:#006400;
+  --darkgray: #373737;
+  --grayShadow: #19241a;
+  --gradientOne: #7cb365;
+  --gradientTwo: #1d751d;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.App {
+  background-color: var(--background);
+}
+
+body{
+  padding-top: 80px;
+  background-image: linear-gradient(to right, var(--gradientOne), var(--gradientTwo))
+}
+
+.todolist{
+  align-items: center;
+  border-color: var(--darkBackground);
+}
+
+  
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+h1 {
+  font-size: xx-large;
+  border-radius: 10px;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  margin: 32px 0;
+  color: var(--grayShadow);
+  font-size: 24px;
+}
+
+.review{
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 40px;
+  align-items: center;
+  background-color: var(--darkBackground);
+  border-color: var(--darkBackground);
+}
+
+.QRCodeButton{
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  font-size: 40px;
+  align-items: center;
+  background-color: var(--darkBackground);
+  color: black;
+  border-color: var(--darkBackground);
+}
+
+/*this stylizes the rows on review state */
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  background: var(--darkgray);
+  padding-bottom: 20px;
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+  background-color: var(--darkgray);
+}
+
+.link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid var(--darkgray);
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: var(--darkgray);
+}
+
+.todo-input::placeholder {
+
+  color: var(--darkgray);
+}
+
+.todo-button {
+  padding: 16px;
+  border: var(--darkgray);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  color: #FFFFFF;
+  outline: #D9D9D9;
+  align-items: center;
+  background: var(--darkgray);
+}
+
+.todo-input.edit {
+  
+  border: 2px solid var(--headerShadowA);
+}
+
+.todo-button.edit {
+  background: var(--headerShadowA);
+  padding: 16px 22px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #FFFFFF;
+  background: var(--darkgray);
+  padding-bottom: 20px;
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+  background-color: var(--darkgray);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
+/*nav bar css */
+
+.site-container
+{
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+header{
+    background-color:var(--darkgray);
+    box-shadow: 4px 4px 4px 4px var(--grayShadow);
+    width: 100%;
+    top:0;
+    position: fixed;  
+    padding: 5px;   
+    padding-right: 5px;
+    border-bottom: 5px #333333;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+padding-top: 30px;
+}
+
+.click{
+  color: var(--buttontextShadow);
+  text-decoration: none;
+  font-size: medium;
+  color: #FFFFFF;
+  float:right;
+  padding: 10px;
+  padding-right: 20px;
+  display: inline;
+  margin: 10px;
+}
+
+.click::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--background);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.click:hover::after,
+.click:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.qrCodeImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome{
+  color: var(--darkShadow);
+  text-align: left;
+  font-size: 70px;
+}
+
+/* intropage style */
+
+.welcomemess{
+  width: 90%;
+  color: var(--darkShadow);
+  padding-left: 10px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.aboutush{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.aboutusp{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
