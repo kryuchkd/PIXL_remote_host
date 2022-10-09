@@ -11,15 +11,15 @@ import AboutUs from './components/AboutUs';
 
 function App() {
   return (
-        <Router>
+        <>
           <header><NavBar/></header>
           <Routes>
             <Route path = "/PIXL_remote_host/aboutUs" element={<AboutUs/>} exact /> 
-              <Route path = "/" element={<IntroPage/>} exact />
-              <Route path = "/linklist" element={<TodoList className="todolist"/>} exact />
-              <Route path = '/review' element={<ReviewState/>} exact />
-            </Routes>
-        </Router>
+            <Route path = "/" element={<IntroPage/>} exact />
+            <Route path = "/linklist" element={<TodoList className="todolist"/>} exact />
+            <Route path = '/review' element={<ReviewState/>} exact />
+          </Routes>
+          </>
   );
 }
 
