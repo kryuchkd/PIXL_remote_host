@@ -9,7 +9,7 @@ class NavBar extends Component {
             <header id = 'navbar'>
             <ul> 
                 <li>
-                    <a className="click" href="/aboutUs" target= "_blank">About Us</a>
+                    <a className="click" href="/PIXL_remote_host/aboutUs" target= "_blank">About Us</a>
                     
                 </li>
                 <li>
