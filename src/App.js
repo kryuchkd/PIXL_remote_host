@@ -15,9 +15,9 @@ function App() {
           <header><NavBar/></header>
           <Routes>
             <Route path = "/PIXL_remote_host/aboutUs" element={<AboutUs/>} exact /> 
-            <Route path = "/" element={<IntroPage/>} exact />
-            <Route path = "/linklist" element={<TodoList className="todolist"/>} exact />
-            <Route path = '/review' element={<ReviewState/>} exact />
+            <Route path = "/PIXL_remote_host" element={<IntroPage/>} exact />
+            <Route path = "/PIXL_remote_host/linklist" element={<TodoList className="todolist"/>} exact />
+            <Route path = '/PIXL_remote_host/review' element={<ReviewState/>} exact />
           </Routes>
           </>
   );

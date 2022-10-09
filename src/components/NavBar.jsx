@@ -16,7 +16,7 @@ class NavBar extends Component {
                     <a className="click" href="https://github.com/mn-spawn/PIXL" target= "_blank" > GitHub</a>
                 </li>
                 <li>
-                  <a className="click" href="/" target= "_blank" > Intro Page</a>
+                  <a className="click" href="/PIXL_remote_host" target= "_blank" > Intro Page</a>
                 </li>
             </ul>
             </header>

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PIXL_remote_host/static/css/main.642e6a2e.css",
-    "main.js": "/PIXL_remote_host/static/js/main.d1f33c52.js",
+    "main.js": "/PIXL_remote_host/static/js/main.da6de879.js",
     "static/js/787.616830e6.chunk.js": "/PIXL_remote_host/static/js/787.616830e6.chunk.js",
     "index.html": "/PIXL_remote_host/index.html",
     "main.642e6a2e.css.map": "/PIXL_remote_host/static/css/main.642e6a2e.css.map",
-    "main.d1f33c52.js.map": "/PIXL_remote_host/static/js/main.d1f33c52.js.map",
+    "main.da6de879.js.map": "/PIXL_remote_host/static/js/main.da6de879.js.map",
     "787.616830e6.chunk.js.map": "/PIXL_remote_host/static/js/787.616830e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.642e6a2e.css",
-    "static/js/main.d1f33c52.js"
+    "static/js/main.da6de879.js"
   ]
 }
