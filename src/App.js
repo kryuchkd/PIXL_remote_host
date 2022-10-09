@@ -11,7 +11,7 @@ import AboutUs from './components/AboutUs';
 
 function App() {
   return (
-        <>
+        <Router>
           <header><NavBar/></header>
           <Routes>
             <Route path = "/PIXL_remote_host/aboutUs" element={<AboutUs/>} exact /> 
@@ -19,7 +19,7 @@ function App() {
             <Route path = "/PIXL_remote_host/linklist" element={<TodoList className="todolist"/>} exact />
             <Route path = '/PIXL_remote_host/review' element={<ReviewState/>} exact />
           </Routes>
-          </>
+        </Router>
   );
 }
 
